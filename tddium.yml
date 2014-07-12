@@ -1,9 +1,11 @@
 :tddium:
   :java:
-    :java_version: java-7-oracle
+    :java_version: java-7-openjdk
+    :maven_version: '3.0.5'  # 2.0, 3.0, 3.1, and 3.2
+    :gradle_version: '1.11'  # 1.11
   :tests:
     - type: junit
       mode: basic
-      command: "java -cp .:./lib/junit.jar org.junit.runner.JUnitCore ./test/gnu/trove/TCollectionsTest.java"
+      command: "mvn test"
       report_files: 
       - "target/surefire-reports/*.xml"
