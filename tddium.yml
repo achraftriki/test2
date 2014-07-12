@@ -1,9 +1,9 @@
 :tddium:
   :java:
-    :java_version: java-6-openjdk
+    :java_version: java-7-oracle
   :tests:
     - type: junit
-      mode: parallel
+      mode: basic
       output: exit-status
       files:
       - include: 'test/*Test.java'
