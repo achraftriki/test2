@@ -4,9 +4,6 @@
   :tests:
     - type: junit
       mode: basic
-      output: exit-status
-      files:
-      - include: "./test/gnu/trove/TCollectionsTest.java"
-      command: "bin/solano-runner" 
+      command: "java -cp .:./lib/junit.jar org.junit.runner.JUnitCore ./test/gnu/trove/TCollectionsTest.java"
       report_files: 
       - "target/surefire-reports/*.xml"
