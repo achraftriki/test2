@@ -9,6 +9,6 @@
   :tests:
     - type: junit
       mode: basic
-      command: "mvn test/gnu/trove"
+      command: "mvn test"
       report_files: 
       - "target/surefire-reports/*.xml"
