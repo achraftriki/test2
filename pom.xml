@@ -10,7 +10,7 @@
 			<groupId>trove-3.1a1</groupId>
 			<artifactId>trove-3.1a1</artifactId>
 			<version>3.1.1</version>
-			<scope>trove</scope>
+			<scope>system</scope>
 			<systemPath>${basedir}/lib/trove-3.1a1.jar</systemPath>
 		</dependency>   
 
