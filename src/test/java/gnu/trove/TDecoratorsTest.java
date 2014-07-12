@@ -16,14 +16,16 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 // ////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove;
+package test.java.gnu.trove;
 
-import gnu.trove.list.TIntList;
-import gnu.trove.list.array.TIntArrayList;
 import junit.framework.TestCase;
 
 import java.util.Iterator;
 import java.util.List;
+
+import main.java.gnu.trove.TDecorators;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.array.TIntArrayList;
 
 
 /**

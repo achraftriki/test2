@@ -19,9 +19,11 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-package gnu.trove.set.hash;
+package test.java.gnu.trove.set.hash;
 
 import junit.framework.TestCase;
+import main.java.gnu.trove.set.hash.TLinkedHashSet;
+
 import org.omg.CORBA.portable.Streamable;
 
 import java.io.ByteArrayInputStream;

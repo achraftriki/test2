@@ -17,10 +17,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-package gnu.trove.impl;
+package test.java.gnu.trove.impl;
 
+import main.java.gnu.trove.impl.PrimeFinder;
 import junit.framework.*;
-import gnu.trove.impl.PrimeFinder;
 
 
 

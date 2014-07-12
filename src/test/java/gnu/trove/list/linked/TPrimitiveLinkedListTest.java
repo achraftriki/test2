@@ -1,13 +1,5 @@
-package gnu.trove.list.linked;
+package test.java.gnu.trove.list.linked;
 
-import gnu.trove.TIntCollection;
-import gnu.trove.function.TIntFunction;
-import gnu.trove.impl.Constants;
-import gnu.trove.iterator.TIntIterator;
-import gnu.trove.list.TIntList;
-import gnu.trove.procedure.TIntProcedure;
-import gnu.trove.set.TIntSet;
-import gnu.trove.set.hash.TIntHashSet;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -15,6 +7,16 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.TIntCollection;
+import main.java.gnu.trove.function.TIntFunction;
+import main.java.gnu.trove.impl.Constants;
+import main.java.gnu.trove.iterator.TIntIterator;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.linked.TIntLinkedList;
+import main.java.gnu.trove.procedure.TIntProcedure;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
 
 /**
  * Created by IntelliJ IDEA.

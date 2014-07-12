@@ -1,6 +1,7 @@
-package gnu.trove.list.linked;
+package test.java.gnu.trove.list.linked;
 
-import gnu.trove.list.TLinkableAdapter;
+import main.java.gnu.trove.list.TLinkableAdapter;
+import main.java.gnu.trove.list.linked.TLinkedList;
 import junit.framework.TestCase;
 
 

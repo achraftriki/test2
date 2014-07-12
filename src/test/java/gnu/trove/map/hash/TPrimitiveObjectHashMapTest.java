@@ -18,21 +18,9 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
 
-import gnu.trove.TIntCollection;
-import gnu.trove.function.TObjectFunction;
-import gnu.trove.iterator.TIntIterator;
-import gnu.trove.iterator.TIntObjectIterator;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.array.TIntArrayList;
-import gnu.trove.map.TIntObjectMap;
-import gnu.trove.procedure.TIntObjectProcedure;
-import gnu.trove.procedure.TIntProcedure;
-import gnu.trove.procedure.TObjectProcedure;
-import gnu.trove.set.TIntSet;
-import gnu.trove.set.hash.TIntHashSet;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -40,6 +28,24 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.TIntCollection;
+import main.java.gnu.trove.function.TObjectFunction;
+import main.java.gnu.trove.iterator.TIntIterator;
+import main.java.gnu.trove.iterator.TIntObjectIterator;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.map.TIntObjectMap;
+import main.java.gnu.trove.map.hash.TDoubleIntHashMap;
+import main.java.gnu.trove.map.hash.TDoubleObjectHashMap;
+import main.java.gnu.trove.map.hash.TFloatIntHashMap;
+import main.java.gnu.trove.map.hash.TFloatObjectHashMap;
+import main.java.gnu.trove.map.hash.TIntObjectHashMap;
+import main.java.gnu.trove.procedure.TIntObjectProcedure;
+import main.java.gnu.trove.procedure.TIntProcedure;
+import main.java.gnu.trove.procedure.TObjectProcedure;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
 
 
 

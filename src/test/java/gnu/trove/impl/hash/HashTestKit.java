@@ -18,8 +18,9 @@
  * ///////////////////////////////////////////////////////////////////////////////
  */
 
-package gnu.trove.impl.hash;
+package test.java.gnu.trove.impl.hash;
 
+import main.java.gnu.trove.impl.hash.THash;
 import junit.framework.TestCase;
 
 

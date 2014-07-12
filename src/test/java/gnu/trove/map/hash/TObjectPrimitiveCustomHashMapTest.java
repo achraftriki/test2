@@ -1,8 +1,5 @@
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
-import gnu.trove.map.TObjectIntMap;
-import gnu.trove.map.custom_hash.TObjectIntCustomHashMap;
-import gnu.trove.strategy.HashingStrategy;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -10,6 +7,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Set;
+
+import main.java.gnu.trove.map.TObjectIntMap;
+import main.java.gnu.trove.map.custom_hash.TObjectIntCustomHashMap;
+import main.java.gnu.trove.strategy.HashingStrategy;
 
 
 /**

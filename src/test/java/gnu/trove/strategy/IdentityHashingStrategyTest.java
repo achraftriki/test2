@@ -1,9 +1,11 @@
-package gnu.trove.strategy;
+package test.java.gnu.trove.strategy;
 
-import gnu.trove.map.hash.TCustomHashMap;
 import junit.framework.TestCase;
 
 import java.util.Map;
+
+import main.java.gnu.trove.map.hash.TCustomHashMap;
+import main.java.gnu.trove.strategy.IdentityHashingStrategy;
 
 
 /**

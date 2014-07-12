@@ -17,29 +17,10 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
 //import gnu.trove.decorator.TByteIntHashMapDecorator;
 
-import gnu.trove.list.array.TIntArrayList;
-import gnu.trove.list.array.TLongArrayList;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.TLongList;
-import gnu.trove.iterator.TIntLongIterator;
-import gnu.trove.iterator.TIntIterator;
-import gnu.trove.iterator.TLongIterator;
-import gnu.trove.map.TIntLongMap;
-import gnu.trove.map.TIntIntMap;
-import gnu.trove.set.TIntSet;
-import gnu.trove.set.TLongSet;
-import gnu.trove.set.hash.TIntHashSet;
-import gnu.trove.set.hash.TLongHashSet;
-import gnu.trove.procedure.TIntProcedure;
-import gnu.trove.procedure.TLongProcedure;
-import gnu.trove.procedure.TIntLongProcedure;
-import gnu.trove.function.TLongFunction;
-import gnu.trove.TLongCollection;
-import gnu.trove.TIntCollection;
 import junit.framework.TestCase;
 
 import java.util.*;
@@ -47,6 +28,28 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
+
+import main.java.gnu.trove.TIntCollection;
+import main.java.gnu.trove.TLongCollection;
+import main.java.gnu.trove.function.TLongFunction;
+import main.java.gnu.trove.iterator.TIntIterator;
+import main.java.gnu.trove.iterator.TIntLongIterator;
+import main.java.gnu.trove.iterator.TLongIterator;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.TLongList;
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.list.array.TLongArrayList;
+import main.java.gnu.trove.map.TIntIntMap;
+import main.java.gnu.trove.map.TIntLongMap;
+import main.java.gnu.trove.map.hash.TIntIntHashMap;
+import main.java.gnu.trove.map.hash.TIntLongHashMap;
+import main.java.gnu.trove.procedure.TIntLongProcedure;
+import main.java.gnu.trove.procedure.TIntProcedure;
+import main.java.gnu.trove.procedure.TLongProcedure;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.TLongSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
+import main.java.gnu.trove.set.hash.TLongHashSet;
 
 
 

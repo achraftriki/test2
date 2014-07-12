@@ -1,11 +1,12 @@
-package gnu.trove;
+package test.java.gnu.trove;
 
-import gnu.trove.list.TIntList;
-import gnu.trove.list.array.TIntArrayList;
-import gnu.trove.map.TIntObjectMap;
-import gnu.trove.map.hash.TIntObjectHashMap;
-import gnu.trove.set.TIntSet;
-import gnu.trove.set.hash.TIntHashSet;
+import main.java.gnu.trove.TCollections;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.map.TIntObjectMap;
+import main.java.gnu.trove.map.hash.TIntObjectHashMap;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
 import junit.framework.TestCase;
 
 

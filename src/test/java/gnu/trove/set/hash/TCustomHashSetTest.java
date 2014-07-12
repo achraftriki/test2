@@ -1,7 +1,5 @@
-package gnu.trove.set.hash;
+package test.java.gnu.trove.set.hash;
 
-import gnu.trove.strategy.HashingStrategy;
-import gnu.trove.map.hash.ArrayHashingStrategy;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -9,6 +7,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Set;
+
+import test.java.gnu.trove.map.hash.ArrayHashingStrategy;
+
+import main.java.gnu.trove.set.hash.TCustomHashSet;
+import main.java.gnu.trove.strategy.HashingStrategy;
 
 
 /**

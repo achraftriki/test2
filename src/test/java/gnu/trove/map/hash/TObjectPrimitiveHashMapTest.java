@@ -18,19 +18,9 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
 
-import gnu.trove.TIntCollection;
-import gnu.trove.function.TIntFunction;
-import gnu.trove.iterator.TIntIterator;
-import gnu.trove.iterator.TObjectIntIterator;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.array.TIntArrayList;
-import gnu.trove.map.TObjectIntMap;
-import gnu.trove.procedure.TIntProcedure;
-import gnu.trove.procedure.TObjectIntProcedure;
-import gnu.trove.procedure.TObjectProcedure;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -38,6 +28,18 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.TIntCollection;
+import main.java.gnu.trove.function.TIntFunction;
+import main.java.gnu.trove.iterator.TIntIterator;
+import main.java.gnu.trove.iterator.TObjectIntIterator;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.map.TObjectIntMap;
+import main.java.gnu.trove.map.hash.TObjectIntHashMap;
+import main.java.gnu.trove.procedure.TIntProcedure;
+import main.java.gnu.trove.procedure.TObjectIntProcedure;
+import main.java.gnu.trove.procedure.TObjectProcedure;
 
 
 

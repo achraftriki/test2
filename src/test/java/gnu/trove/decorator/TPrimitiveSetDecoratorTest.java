@@ -18,18 +18,20 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.decorator;
+package test.java.gnu.trove.decorator;
 
 import junit.framework.TestCase;
-import gnu.trove.set.TIntSet;
-import gnu.trove.set.hash.TIntHashSet;
-import gnu.trove.TDecorators;
 
 import java.util.*;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
+
+import main.java.gnu.trove.TDecorators;
+import main.java.gnu.trove.decorator.TIntSetDecorator;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
 
 
 

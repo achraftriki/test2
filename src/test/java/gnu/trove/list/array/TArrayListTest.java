@@ -18,11 +18,8 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.list.array;
+package test.java.gnu.trove.list.array;
 
-import gnu.trove.TCollections;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.TLongList;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -30,6 +27,12 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Arrays;
+
+import main.java.gnu.trove.TCollections;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.TLongList;
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.list.array.TLongArrayList;
 
 
 public class TArrayListTest extends TestCase {

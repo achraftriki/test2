@@ -1,6 +1,6 @@
-package gnu.trove.impl.hash;
+package test.java.gnu.trove.impl.hash;
 
-import gnu.trove.map.hash.TObjectLongHashMap;
+import main.java.gnu.trove.map.hash.TObjectLongHashMap;
 import junit.framework.TestCase;
 
 

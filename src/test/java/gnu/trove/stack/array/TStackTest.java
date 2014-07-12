@@ -18,16 +18,18 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.stack.array;
+package test.java.gnu.trove.stack.array;
 
-import gnu.trove.list.array.TIntArrayList;
-import gnu.trove.stack.TIntStack;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+
+import main.java.gnu.trove.list.array.TIntArrayList;
+import main.java.gnu.trove.stack.TIntStack;
+import main.java.gnu.trove.stack.array.TIntArrayStack;
 
 
 

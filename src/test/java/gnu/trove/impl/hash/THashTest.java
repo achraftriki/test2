@@ -1,19 +1,22 @@
-package gnu.trove.impl.hash;
+package test.java.gnu.trove.impl.hash;
 
 import junit.framework.TestCase;
-import gnu.trove.set.hash.THashSet;
-import gnu.trove.map.hash.THashMap;
-import gnu.trove.map.hash.TIntLongHashMap;
-import gnu.trove.map.hash.TIntObjectHashMap;
-import gnu.trove.map.hash.TObjectIntHashMap;
-import gnu.trove.map.TIntLongMap;
-import gnu.trove.map.TIntObjectMap;
-import gnu.trove.map.TObjectIntMap;
 
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
+
+import main.java.gnu.trove.impl.hash.THash;
+import main.java.gnu.trove.impl.hash.TPrimitiveHash;
+import main.java.gnu.trove.map.TIntLongMap;
+import main.java.gnu.trove.map.TIntObjectMap;
+import main.java.gnu.trove.map.TObjectIntMap;
+import main.java.gnu.trove.map.hash.THashMap;
+import main.java.gnu.trove.map.hash.TIntLongHashMap;
+import main.java.gnu.trove.map.hash.TIntObjectHashMap;
+import main.java.gnu.trove.map.hash.TObjectIntHashMap;
+import main.java.gnu.trove.set.hash.THashSet;
 
 
 

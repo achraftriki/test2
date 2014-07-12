@@ -18,14 +18,8 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
-import gnu.trove.function.TObjectFunction;
-import gnu.trove.impl.hash.HashTestKit;
-import gnu.trove.impl.hash.TObjectHash;
-import gnu.trove.procedure.TObjectObjectProcedure;
-import gnu.trove.procedure.TObjectProcedure;
-import gnu.trove.set.hash.THashSetTest;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -33,6 +27,15 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import test.java.gnu.trove.impl.hash.HashTestKit;
+import test.java.gnu.trove.set.hash.THashSetTest;
+
+import main.java.gnu.trove.function.TObjectFunction;
+import main.java.gnu.trove.impl.hash.TObjectHash;
+import main.java.gnu.trove.map.hash.THashMap;
+import main.java.gnu.trove.procedure.TObjectObjectProcedure;
+import main.java.gnu.trove.procedure.TObjectProcedure;
 
 
 

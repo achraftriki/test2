@@ -1,9 +1,11 @@
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
-import gnu.trove.map.TObjectIntMap;
 import junit.framework.TestCase;
 
 import java.util.Arrays;
+
+import main.java.gnu.trove.map.TObjectIntMap;
+import main.java.gnu.trove.map.hash.TObjectIntHashMap;
 
 
 /**

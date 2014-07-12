@@ -1,10 +1,12 @@
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
-import gnu.trove.strategy.HashingStrategy;
 import junit.framework.TestCase;
 
 import java.io.*;
 import java.util.*;
+
+import main.java.gnu.trove.map.hash.TCustomHashMap;
+import main.java.gnu.trove.strategy.HashingStrategy;
 
 
 /**

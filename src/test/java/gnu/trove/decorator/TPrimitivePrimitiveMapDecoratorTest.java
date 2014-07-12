@@ -18,14 +18,8 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.decorator;
+package test.java.gnu.trove.decorator;
 
-import gnu.trove.TDecorators;
-import gnu.trove.map.TIntIntMap;
-import gnu.trove.map.TIntLongMap;
-import gnu.trove.map.hash.TIntIntHashMap;
-import gnu.trove.map.hash.TIntLongHashMap;
-import gnu.trove.map.hash.TIntObjectHashMap;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -33,6 +27,14 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.TDecorators;
+import main.java.gnu.trove.decorator.TIntLongMapDecorator;
+import main.java.gnu.trove.map.TIntIntMap;
+import main.java.gnu.trove.map.TIntLongMap;
+import main.java.gnu.trove.map.hash.TIntIntHashMap;
+import main.java.gnu.trove.map.hash.TIntLongHashMap;
+import main.java.gnu.trove.map.hash.TIntObjectHashMap;
 
 
 

@@ -1,8 +1,5 @@
-package gnu.trove.set.hash;
+package test.java.gnu.trove.set.hash;
 
-import gnu.trove.iterator.TIntIterator;
-import gnu.trove.procedure.TIntProcedure;
-import gnu.trove.set.TIntSet;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -10,6 +7,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.iterator.TIntIterator;
+import main.java.gnu.trove.procedure.TIntProcedure;
+import main.java.gnu.trove.set.TIntSet;
+import main.java.gnu.trove.set.hash.TIntHashSet;
 
 
 /**

@@ -19,7 +19,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-package gnu.trove.set.hash;
+package test.java.gnu.trove.set.hash;
 
 import junit.framework.TestCase;
 
@@ -28,6 +28,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.set.hash.THashSet;
 
 
 

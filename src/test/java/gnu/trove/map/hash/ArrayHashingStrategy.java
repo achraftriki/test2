@@ -1,9 +1,10 @@
-package gnu.trove.map.hash;
+package test.java.gnu.trove.map.hash;
 
-import gnu.trove.strategy.HashingStrategy;
 
 import java.io.Serializable;
 import java.util.Arrays;
+
+import main.java.gnu.trove.strategy.HashingStrategy;
 
 
 /**

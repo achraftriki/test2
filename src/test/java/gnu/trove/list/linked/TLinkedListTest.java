@@ -18,13 +18,8 @@
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 ///////////////////////////////////////////////////////////////////////////////
 
-package gnu.trove.list.linked;
+package test.java.gnu.trove.list.linked;
 
-import gnu.trove.TCollections;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.TLinkable;
-import gnu.trove.list.TLongList;
-import gnu.trove.procedure.TObjectProcedure;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -32,6 +27,15 @@ import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.*;
+
+import main.java.gnu.trove.TCollections;
+import main.java.gnu.trove.list.TIntList;
+import main.java.gnu.trove.list.TLinkable;
+import main.java.gnu.trove.list.TLongList;
+import main.java.gnu.trove.list.linked.TIntLinkedList;
+import main.java.gnu.trove.list.linked.TLinkedList;
+import main.java.gnu.trove.list.linked.TLongLinkedList;
+import main.java.gnu.trove.procedure.TObjectProcedure;
 
 
 /**
