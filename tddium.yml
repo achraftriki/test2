@@ -6,8 +6,7 @@
       mode: basic
       output: exit-status
       files:
-      - include: './test/gnu/trove/TCollectionsTest.java'
-      - include: './test/gnu/trove/TDecoratorsTest.java'
+      - include: "./test/gnu/trove/TCollectionsTest.java"
       command: "bin/solano-runner" 
       report_files: 
       - "target/surefire-reports/*.xml"
